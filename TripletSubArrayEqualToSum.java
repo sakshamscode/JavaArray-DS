@@ -13,7 +13,7 @@ public class TripletSubArrayEqualToSum {
         System.out.println("Enter the Sum: ");
         int a = sc.nextInt();
 
-        for(int i=0;i<n;i++)
+        for(int i=0;i<n-2;i++)
         {
             for(int j=i+1;j<n-1;j++)
             {
